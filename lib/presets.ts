@@ -1,0 +1,66 @@
+import type { Preset } from "./types";
+
+export const PRESETS: Preset[] = [
+  {
+    id: "brutal",
+    name: "Brutal",
+    background: "#0a0a0a",
+    textColor: "#fafafa",
+    digitSet: "9876543210",
+    contrast: 1.2,
+    invert: false,
+    shadow: "0 0 0 1px rgba(255,255,255,0.06)",
+  },
+  {
+    id: "ghost",
+    name: "Ghost",
+    background: "#fafafa",
+    textColor: "#171717",
+    digitSet: "986420",
+    contrast: 0.9,
+    invert: false,
+    shadow: "0 2px 8px rgba(0,0,0,0.04)",
+  },
+  {
+    id: "infrared",
+    name: "Infrared",
+    background: "#0c0c0c",
+    textColor: "#ff3366",
+    digitSet: "9876543210",
+    contrast: 1.4,
+    invert: true,
+    glow: "0 0 12px rgba(255,51,102,0.4)",
+  },
+  {
+    id: "ledger",
+    name: "Ledger",
+    background: "#1c1917",
+    textColor: "#a8a29e",
+    digitSet: "86420",
+    contrast: 1.1,
+    invert: false,
+    shadow: "0 1px 2px rgba(0,0,0,0.3)",
+  },
+  {
+    id: "neon",
+    name: "Neon",
+    background: "#0f0f0f",
+    textColor: "#22ff88",
+    digitSet: "986531",
+    contrast: 1.3,
+    invert: false,
+    glow: "0 0 20px rgba(34,255,136,0.5)",
+  },
+  {
+    id: "archive",
+    name: "Archive",
+    background: "#1a1a1a",
+    textColor: "#d4a574",
+    digitSet: "9876543210",
+    contrast: 1.0,
+    invert: false,
+    shadow: "0 0 0 1px rgba(212,165,116,0.15)",
+  },
+];
+
+export const DEFAULT_PRESET_ID = "brutal";
