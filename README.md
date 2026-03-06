@@ -1,6 +1,6 @@
 # Number ASCII Art
 
-A browser-based creative tool that turns uploaded images into number-based ASCII artwork. Built with Next.js, React, TypeScript, and Tailwind CSS. No backend; deployable on Vercel.
+Crazy browser based side project that turns uploaded images into number-based ASCII artwork. Built with Next.js, React, TypeScript, and Tailwind CSS. No backend;
 
 ## Features
 
@@ -27,10 +27,6 @@ Open [http://localhost:3000](http://localhost:3000).
 npm run build
 npm start
 ```
-
-## Deploy on Vercel
-
-Import the repo and deploy. No environment variables or backend required.
 
 ## Tech stack
 
